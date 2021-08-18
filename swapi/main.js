@@ -1,5 +1,3 @@
-const { default: axios } = require("axios");
-
 const getResidentsButton = document.querySelector('#getResidents');
 const planetName = document.querySelector('#planetName')
 const getMoviesButton = document.querySelector("#getMovies");
@@ -26,8 +24,7 @@ const getResidents = () => {
     })
 }
 
-
-// getResidentsButton.addEventListener('click', getResidents);
+getResidentsButton.addEventListener('click', getResidents);
 
 // const getActors = () => {
 //     axios.get(`https://swapi.dev/api/people?search=${}`);
