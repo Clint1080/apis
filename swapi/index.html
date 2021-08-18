@@ -8,9 +8,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <main>
+        <section>
+            <h2></h2>
+            <h2>Enter the name of an actor in Star Wars to find out what films they were in.</h2>
+            <input id="actorName"/>
+            <button id="getMovies" >Get movies</button>
+            <div class="results movies"></div>
+        </section>
+        <section>
+            <h2>Enter a planet from Star Wars to find out who lived there</h2>
+            <input id="planetName" placeholder="alderaan"/>
+            <button id="getResidents">Get residents</button>
+            <div class="results residents"></div>
+        </section>
+        
+    </main>
 
-
-
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
